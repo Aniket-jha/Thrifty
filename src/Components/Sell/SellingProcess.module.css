@@ -1,0 +1,41 @@
+.sellTopContent {
+  padding: 5% 15% 3% 15%;
+}
+.sellButton {
+  padding: 2%;
+  margin: 3% 40%;
+}
+.howToSell {
+  padding: 3% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.sellBoxes {
+  border: 1px solid rgb(230, 228, 228);
+
+  box-shadow: 3px 2px 7px rgb(179, 178, 178);
+  height: 330px;
+  margin: 10px;
+  width: 22%;
+  text-align: center;
+}
+.sellBoxes img {
+  width: 100%;
+}
+.sellText {
+  padding: 8px;
+  color: #b24080;
+}
+.bottomSell {
+  margin: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.toDo p {
+  color: grey;
+}

@@ -1,0 +1,15 @@
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.brandImg {
+  padding: 5px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.brandImg img {
+  width: 280px;
+  cursor: pointer;
+}

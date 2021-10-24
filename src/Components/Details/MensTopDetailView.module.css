@@ -1,0 +1,61 @@
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.border {
+  background-color: rgb(243, 241, 241);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionOne img {
+  width: 600px;
+  flex: 7;
+  object-fit: contain;
+  box-shadow: 5px 5px 7px rgb(211, 211, 211);
+  border-radius: 20px;
+}
+.sectionTwo {
+  flex: 5;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cancelledPrice,
+.actualPrice {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.deals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  padding: 20px 5px;
+  background-color: #ffd700;
+
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 7px rgb(182, 181, 181);
+  border: 2px solid #ffd700;
+}

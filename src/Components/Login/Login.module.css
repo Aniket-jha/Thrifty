@@ -1,0 +1,49 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.loginlogo {
+  text-align: center;
+  width: 300px;
+  margin-top: 200px;
+}
+.form {
+  margin-top: 250px;
+}
+.form h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 600px) {
+  .login {
+    display: block;
+  }
+  .loginlogo {
+    width: 80%;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+  }
+  .form {
+    margin-top: 0px;
+  }
+  .foot {
+    padding-top: 40px;
+  }
+}

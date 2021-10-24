@@ -1,0 +1,52 @@
+.card {
+  width: 300px;
+}
+
+.card img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(231, 231, 231);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.cardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: blueviolet;
+  cursor: pointer;
+}
+.cardTitle:hover {
+  color: rgb(230, 215, 12);
+}
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  color: gray;
+  font-size: medium;
+}
+.sizeTag {
+  padding: 2px;
+  font-size: small;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.action {
+  display: flex;
+}
+.cancelledPrice {
+  padding: 2px 20px 2px 5px;
+  color: gray;
+  text-decoration: line-through;
+}
+.confirmedPrice {
+  margin: 2px 20px;
+  color: green;
+}
+
+.addToCartButton:hover {
+  color: black;
+}

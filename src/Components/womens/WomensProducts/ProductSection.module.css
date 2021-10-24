@@ -1,0 +1,12 @@
+.goods {
+  margin: 50px;
+}
+.goodsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.goodItems {
+  margin: 20px 50px 10px 0px;
+}

@@ -1,0 +1,9 @@
+.header {
+  height: 55px;
+}
+.logo {
+  padding-left: 25%;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
